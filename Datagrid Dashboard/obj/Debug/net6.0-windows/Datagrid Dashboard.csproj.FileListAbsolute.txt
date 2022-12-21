@@ -1,0 +1,10 @@
+C:\Users\user\PPTX\WPF\Datagrid Dashboard\obj\Debug\net6.0-windows\Datagrid Dashboard.csproj.AssemblyReference.cache
+C:\Users\user\PPTX\WPF\Datagrid Dashboard\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\user\PPTX\WPF\Datagrid Dashboard\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\user\PPTX\WPF\Datagrid Dashboard\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\user\PPTX\WPF\Datagrid Dashboard\obj\Debug\net6.0-windows\Datagrid Dashboard_MarkupCompile.cache
+C:\Users\user\PPTX\WPF\Datagrid Dashboard\obj\Debug\net6.0-windows\Datagrid Dashboard.g.resources
+C:\Users\user\PPTX\WPF\Datagrid Dashboard\obj\Debug\net6.0-windows\Datagrid Dashboard.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\PPTX\WPF\Datagrid Dashboard\obj\Debug\net6.0-windows\Datagrid Dashboard.AssemblyInfoInputs.cache
+C:\Users\user\PPTX\WPF\Datagrid Dashboard\obj\Debug\net6.0-windows\Datagrid Dashboard.AssemblyInfo.cs
+C:\Users\user\PPTX\WPF\Datagrid Dashboard\obj\Debug\net6.0-windows\Datagrid Dashboard.csproj.CoreCompileInputs.cache

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5E8KbusQQxeIJd6dF6UGuUmhae05O797utYpzUwzW6Topi+D2N8uLE7/7EZu9syDFX6Tn7qtYWhI2veuygi78Q==",
+  "dgSpecHash": "GkQEUUMoiSu3QWgR8oyxQfJ8UiNNMq9qTP1PY22oq3VZl/E6uxg9pYc6SOGHWU4e5Lkpj5sfGHXIV6PhwRqssw==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\PPTX\\WPF\\Datagrid Dashboard\\Datagrid Dashboard.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\mahapps.metro.iconpacks.material\\4.11.0\\mahapps.metro.iconpacks.material.4.11.0.nupkg.sha512"
+  ],
   "logs": []
 }

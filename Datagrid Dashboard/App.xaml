@@ -13,14 +13,21 @@
             <Setter Property="Width" Value="30"/>
             <Setter Property="Height" Value="30"/>
             <Setter Property="HorizontalAlignment" Value="Right"/>
-            <Setter Property="Templete"
+            <Setter Property="Template">
                 <Setter.Value>
-                    <ControlTemplate TargetType="Button">
-                        <Border></Border>
-                    </ControlTemplate>
-
+                    <ControlTemplete TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="50">
+                            <ContentPresenter HorizontalAlignment = "Center" VerticalAlignment="Center"/>
+                        </Border>                        
+                    </ControlTemplete>
                 </Setter.Value>
             </Setter>
+
+            <Style.Triggers>
+                <Trigger>
+                    
+                </Trigger>
+            </Style.Triggers>
         </Style>
          
     </Application.Resources>

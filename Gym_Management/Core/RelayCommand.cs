@@ -10,7 +10,7 @@ namespace Gym_Management.Core
     class RelayCommand : ICommand
     {
         private Action<object> _execute;
-        private Func<object> _canExecute;
+        private Func<object, bool> _canExecute;
 
         public event EventHandler CanExecuteChanged
         {
@@ -19,15 +19,21 @@ namespace Gym_Management.Core
              
         }
 
-        public RelayCommand(Action<object> execute, Func<object> canExecute = null)
+        public RelayCommand(Action<object> execute, Func<object, bool> canExecute)
         {
             _execute = execute;
             _canExecute = canExecute;
         }
-
+        
         public bool CanExecute(object parameter)
         {
             return _canExecute == null || _canExecute(parameter);
         }
+
+        public void Execute(object parameter)
+        {
+            _execute(parameter);
+        }
+       
     }
 }

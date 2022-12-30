@@ -1,5 +1,5 @@
 ﻿Gym_Management
-1.0.0.0
+
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\user\PPTX\WPF\Gym_Management\App.xaml
 21505968660
 
-7976400650
+5-691000765
 194-200944676
 MainWindow.xaml;Theme\MenuButtonTheme.xaml;
 
-True
+False
 

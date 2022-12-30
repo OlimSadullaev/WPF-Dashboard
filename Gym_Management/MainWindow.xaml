@@ -38,7 +38,29 @@
                              Foreground="White"
                              FontSize="14"
                              Style="{StaticResource MenyuButtonTheme}"/>
+
+                <RadioButton Content="Discovery"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="14"
+                             Style="{StaticResource MenyuButtonTheme}"/>
+
+                <RadioButton Content="Featured"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="14"
+                             Style="{StaticResource MenyuButtonTheme}"/>
+
+                
             </StackPanel>
+
+            <TextBox Width="250"
+                     Height="40"
+                     VerticalContentAlignment="Center"
+                     HorizontalAlignment="Left"
+                     Margin="5"
+                     Grid.Column="1"/>
+
         </Grid>
 
         

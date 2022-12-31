@@ -9,7 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using Gym_Management;
 using Gym_Management.MVVM.View;
+using Gym_Management.MVVM.ViewModel;
 using System;
 using System.Diagnostics;
 using System.Windows;
@@ -53,7 +55,7 @@ namespace Gym_Management.MVVM.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Gym_Management;V1.0.0.0;component/mvvm/view/homeview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Gym_Management;component/mvvm/view/homeview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\MVVM\View\HomeView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

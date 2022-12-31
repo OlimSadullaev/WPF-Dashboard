@@ -11,7 +11,7 @@ namespace Gym_Management.MVVM.ViewModel
     {
 
 
-        public HomeViewModel MyProperty { get; set; }
+        public HomeViewModel HomeVM { get; set; }
 
         private object _currentView;
 
@@ -27,7 +27,8 @@ namespace Gym_Management.MVVM.ViewModel
 
         public MainViewModel()
         {
-
+            HomeVM = new HomeViewModel();
+            CurrentView = HomeVM;
         }
     }
 }

@@ -24,3 +24,4 @@ C:\Users\user\PPTX\WPF\Gym_Management\obj\Debug\net6.0-windows\ref\Gym_Managemen
 C:\Users\user\PPTX\WPF\Gym_Management\obj\Debug\net6.0-windows\Theme\TextboxTheme.baml
 C:\Users\user\PPTX\WPF\Gym_Management\obj\Debug\net6.0-windows\MVVM\View\HomeView.g.cs
 C:\Users\user\PPTX\WPF\Gym_Management\obj\Debug\net6.0-windows\MVVM\View\HomeView.baml
+C:\Users\user\PPTX\WPF\Gym_Management\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs

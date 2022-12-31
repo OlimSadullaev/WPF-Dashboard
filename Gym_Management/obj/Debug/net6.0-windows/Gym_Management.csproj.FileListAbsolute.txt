@@ -21,3 +21,4 @@ C:\Users\user\PPTX\WPF\Gym_Management\obj\Debug\net6.0-windows\refint\Gym_Manage
 C:\Users\user\PPTX\WPF\Gym_Management\obj\Debug\net6.0-windows\Gym_Management.pdb
 C:\Users\user\PPTX\WPF\Gym_Management\obj\Debug\net6.0-windows\Gym_Management.genruntimeconfig.cache
 C:\Users\user\PPTX\WPF\Gym_Management\obj\Debug\net6.0-windows\ref\Gym_Management.dll
+C:\Users\user\PPTX\WPF\Gym_Management\obj\Debug\net6.0-windows\Theme\TextboxTheme.baml

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\user\PPTX\WPF\Gym_Management\App.xaml
-3584641632
+4667536960
 
-5-691000765
+8-2096597805
 194-200944676
-MainWindow.xaml;Theme\MenuButtonTheme.xaml;Theme\TextboxTheme.xaml;
+MainWindow.xaml;MVVM\View\HomeView.xaml;Theme\MenuButtonTheme.xaml;Theme\TextboxTheme.xaml;
 
 False
 

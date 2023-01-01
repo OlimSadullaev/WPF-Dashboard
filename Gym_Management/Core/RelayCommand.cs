@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Gym_Management.MVVM.ViewModel;
+using System;
 using System.Windows.Input;
 
 namespace Gym_Management.Core
@@ -7,6 +8,7 @@ namespace Gym_Management.Core
     {
         private Action<object> _execute;
         private Func<object, bool> _canExecute;
+        private Action<object> value;
 
         public event EventHandler CanExecuteChanged
         {
@@ -20,7 +22,12 @@ namespace Gym_Management.Core
             _execute = execute;
             _canExecute = canExecute;
         }
-        
+
+        public RelayCommand(Action<object> value)
+        {
+            this.value = value;
+        }
+
         public bool CanExecute(object parameter)
         {
             return _canExecute == null || _canExecute(parameter);
@@ -30,6 +37,10 @@ namespace Gym_Management.Core
         {
             _execute(parameter);
         }
-       
+
+        public static implicit operator RelayCommand(HomeViewModel v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

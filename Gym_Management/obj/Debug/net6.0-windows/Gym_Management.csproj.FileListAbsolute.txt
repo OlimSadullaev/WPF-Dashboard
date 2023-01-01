@@ -25,3 +25,5 @@ C:\Users\user\PPTX\WPF\Gym_Management\obj\Debug\net6.0-windows\Theme\TextboxThem
 C:\Users\user\PPTX\WPF\Gym_Management\obj\Debug\net6.0-windows\MVVM\View\HomeView.g.cs
 C:\Users\user\PPTX\WPF\Gym_Management\obj\Debug\net6.0-windows\MVVM\View\HomeView.baml
 C:\Users\user\PPTX\WPF\Gym_Management\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\user\PPTX\WPF\Gym_Management\obj\Debug\net6.0-windows\MVVM\View\DiscoveryView.g.cs
+C:\Users\user\PPTX\WPF\Gym_Management\obj\Debug\net6.0-windows\MVVM\View\DiscoveryView.baml

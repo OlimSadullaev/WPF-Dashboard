@@ -6,22 +6,31 @@ using System.Threading.Tasks;
 
 namespace Reservation.Models
 {
-    public class Reservation
+    public class Reserva
     {
-        public RoomID RoomId { get; }
+        public RoomID RoomID { get; }
         public string UserName { get; set; }
         public DateTime StarTime { get; }
         public DateTime EndTime { get; }
 
         public TimeSpan Length => EndTime.Subtract(StarTime);
 
-        public Reservation(RoomID roomId, string username, DateTime starTime, DateTime endTime)
+        public Reserva(RoomID roomId, string username, DateTime starTime, DateTime endTime)
         {
-            RoomId = roomId;
+            RoomID = roomId;
             UserName = username;
             StarTime = starTime;
             EndTime = endTime;
 
+        }
+
+        public bool Conflicts(Reserva reservation)
+        {
+            if(reservation.RoomID != RoomID)
+            {
+                return false;
+            }
+            return reservation.StarTime < EndTime && reservation.EndTime > StarTime;
         }
     }
 }

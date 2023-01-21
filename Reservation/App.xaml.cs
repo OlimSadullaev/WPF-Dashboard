@@ -38,7 +38,7 @@ namespace Reservation
 
             }
             
-           IEnumerable<Reserva> reservations = hotel.GetReservationForUsers("SengltonSean");
+           IEnumerable<Reserva> reservations = hotel.GetAllReservations();
         }
     }
 }

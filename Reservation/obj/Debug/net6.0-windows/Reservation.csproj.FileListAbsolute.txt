@@ -24,3 +24,4 @@ C:\Users\user\PPTX\WPF\Reservation\obj\Debug\net6.0-windows\Views\ReservationLis
 C:\Users\user\PPTX\WPF\Reservation\obj\Debug\net6.0-windows\Views\MakeReservationView.baml
 C:\Users\user\PPTX\WPF\Reservation\obj\Debug\net6.0-windows\Views\ReservationListingView.baml
 C:\Users\user\PPTX\WPF\Reservation\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\user\PPTX\WPF\Reservation\obj\Debug\net6.0-windows\App.baml

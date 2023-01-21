@@ -32,5 +32,7 @@ namespace Reservation.Models
             }
             return reservation.StarTime < EndTime && reservation.EndTime > StarTime;
         }
+
+        
     }
 }

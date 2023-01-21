@@ -15,7 +15,16 @@ namespace Reservation.Models
         {
             Name = name;
             _reservationBook = new ReservationBook();
-            
+        }
+
+        public IEnumerable<Reserva> GetReservationForUsers(string username)
+        {
+            return _reservationBook.GetReservationsForUser(username);
+        }
+
+        public void MakeReservation(Reserva reserva)
+        {
+            _reservationBook.AddReservation(reserva);
         }
     }
 }

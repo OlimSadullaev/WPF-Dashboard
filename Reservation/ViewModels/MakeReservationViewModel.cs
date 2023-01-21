@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Input;
 
 namespace Reservation.ViewModels
 {
@@ -87,6 +88,14 @@ namespace Reservation.ViewModels
                 _endDate = value;
                 OnProPertyChange(nameof(EndDate));
             }
+        }
+
+        public ICommand SubmitCommand { get; }
+        public ICommand CancelCommand { get; }
+
+        public MakeReservationViewModel()
+        {
+
         }
     }
 }

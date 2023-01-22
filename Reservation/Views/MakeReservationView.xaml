@@ -31,7 +31,7 @@
             <TextBlock Grid.Row="0" Text="Username"/>
             <TextBox Grid.Row="1" 
                      Margin="0 5 0 0"
-                     Text="{Binding Username}"/>
+                     Text="{Binding UserName, UpdateSourceTrigger=PropertyChanged}"/>
         </Grid>
 
         <Grid Grid.Row="2" Margin="0 10 0 0">
@@ -52,7 +52,7 @@
                      Grid.Column="0"
                      Width="100"
                      Margin="0 5 0 0"
-                     Text="{Binding FloorNumber}"/>
+                     Text="{Binding FloorNumber, UpdateSourceTrigger=PropertyChanged}"/>
 
             <TextBlock Grid.Row="0" 
                        Grid.Column="1"
@@ -63,7 +63,7 @@
             <TextBox Grid.Row="1" 
                      Grid.Column="1"
                      Margin="10 5 0 0"
-                     Text="{Binding RoomNumber}"/>
+                     Text="{Binding RoomNumber, UpdateSourceTrigger=PropertyChanged}"/>
         </Grid>
 
         <Grid Grid.Row="3">
@@ -86,7 +86,7 @@
                 Grid.Column="0"
                 Width="100"
                 Margin="0 5 0 0"
-                SelectedDate="{Binding StartDate}"/>
+                SelectedDate="{Binding StartDate, UpdateSourceTrigger=PropertyChanged}"/>
 
             <TextBlock 
                 Grid.Row="0" 
@@ -99,7 +99,7 @@
                 Grid.Column="1"
                 Width="100"
                 Margin="10 5 0 0"
-                SelectedDate="{Binding EndDate}"/>
+                SelectedDate="{Binding EndDate, UpdateSourceTrigger=PropertyChanged}"/>
         </Grid>
 
         <StackPanel 

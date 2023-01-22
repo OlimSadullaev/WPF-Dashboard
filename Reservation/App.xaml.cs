@@ -1,5 +1,6 @@
 ﻿using Reservation.Exceptions;
 using Reservation.Models;
+using Reservation.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -17,28 +18,14 @@ namespace Reservation
     {
         protected override void OnStartup(StartupEventArgs e)
         {
-            Hotel hotel = new Hotel("SengltonSean Suits");
-
-            try
+            MainWindow = new MainWindow()
             {
-                hotel.MakeReservation(new Reserva(
-                    new RoomID(1, 3),
-                    "SengltonSean",
-                    new DateTime(2000, 1, 1),
-                    new DateTime(2000, 1, 2)));
+                DataContext = new MainViewModel()
+            };
 
-                hotel.MakeReservation(new Reserva(
-                    new RoomID(1, 2),
-                    "SengltonSean",
-                    new DateTime(2000, 1, 3),
-                    new DateTime(2000, 1, 4)));
-            }
-            catch(ReservationConflictException ex)
-            {
+            MainWindow.Show();
 
-            }
-            
-           IEnumerable<Reserva> reservations = hotel.GetAllReservations();
+            base.OnStartup(e);
         }
     }
 }

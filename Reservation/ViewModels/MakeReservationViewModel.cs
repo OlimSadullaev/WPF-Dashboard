@@ -12,7 +12,7 @@ namespace Reservation.ViewModels
     {
         private string _username;
 
-        public string Myproperty
+        public string UserName
         {
             get
             {
@@ -22,7 +22,7 @@ namespace Reservation.ViewModels
             set
             {
                 _username = value;
-                OnProPertyChange(nameof(Myproperty));
+                OnProPertyChange(nameof(UserName));
             }
         }
 

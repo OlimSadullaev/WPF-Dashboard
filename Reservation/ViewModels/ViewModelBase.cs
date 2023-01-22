@@ -13,7 +13,7 @@ namespace Reservation.ViewModels
 
         protected void OnProPertyChange(string? propertyName)
         {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName))
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

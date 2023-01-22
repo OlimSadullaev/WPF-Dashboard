@@ -106,8 +106,8 @@
             Grid.Row="4" 
             Margin="0 50 0 0"
             Orientation="Horizontal">
-            <Button Command="{Binding}" Content="Submit"/>
-            <Button Margin="25 0 0 0" Content="Cancel"/>
+            <Button Command="{Binding SubmitButtton}" Content="Submit"/>
+            <Button Margin="25 0 0 0" Content="Cancel" Command="{Binding CancelCommand}"/>
         </StackPanel>
 
     </Grid>

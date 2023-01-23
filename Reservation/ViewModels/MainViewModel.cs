@@ -12,7 +12,7 @@ namespace Reservation.ViewModels
 
         public MainViewModel()
         {
-            CurrentViewModel = new MakeReservationViewModel(); 
+            CurrentViewModel = new ReservationListingViewModel(); 
         }
     }
 }

@@ -13,8 +13,8 @@ namespace Reservation.ViewModels
 
         public string RoomID => _reservation.RoomID?.ToString();
         public string UserName => _reservation.UserName;
-        public DateTime StarTime => _reservation.StarTime;
-        public DateTime EndTime => _reservation.EndTime;
+        public DateTime StarDate => _reservation.StarTime;
+        public DateTime EndDate => _reservation.EndTime;
 
         public ReservationViewModel(Reserva reservation)
         {
